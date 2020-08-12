@@ -1,2 +1,3 @@
-class User < ApplicationRecord
+class User < ApplicationRecord  
+    
 end
