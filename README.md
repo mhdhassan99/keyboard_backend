@@ -1,24 +1,41 @@
-# README
+tables 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+item 
+- name 
+- price 
+- type 
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+user 
+- username 
+- password 
 
-* Configuration
+cart  
+-  
 
-* Database creation
 
-* Database initialization
+relationships 
+- user has_many items through cart 
+- cart belongs to a user 
+- has_many items
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+user stories 
+- user should be able to go the website and see all the keyboards
+- user clicks on keyboard and can see all the pieces of the keyboard 
+- user can add the keyboard to the cart 
+- user can add pieces to the cart 
+- user can see the updated total 
+- user can delete from the cart 
+- user edit the cart quantity and items 
+- user should be able to login 
+- user can search by name 
 
-* Deployment instructions
 
-* ...
+
+stretch goal 
+- user will have auth login 
+- user will have a show page that will show their transaction 
+- user can create their own custom keyboard 
+- on submit the created custom keyboard can be added to main page 
