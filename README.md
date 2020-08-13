@@ -3,7 +3,8 @@ tables
 item 
 - name 
 - price 
-- type 
+- category
+- image 
 
 
 

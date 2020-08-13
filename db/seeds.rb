@@ -7,13 +7,13 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-5.times do |n|
-  User.create(
-    password: "1234",
-    username: "user#{n}"
-  )
-end
-puts User.all.length, "user" + " created"
+# 5.times do |n|
+#     User.create(
+#     password: "1234",
+#     username: "user#{n}"
+#     )
+# end
+# puts User.all.length, "user" + " created"
 
 
 items = [
@@ -51,7 +51,7 @@ items = [
         image: "https://mechanicalkeyboards.com/shop/images/products/large_MY68N1PPP88V_main.jpg",
         category: 'keyboard' 
     },
- ]
+]
 
 
 
