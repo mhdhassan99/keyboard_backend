@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 2020_08_14_173457) do
     t.string "image"
     t.string "category"
     t.integer "user_id"
+    t.integer "quantity", default: 1
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
