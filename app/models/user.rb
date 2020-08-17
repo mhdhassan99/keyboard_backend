@@ -1,3 +1,3 @@
-class User < ApplicationRecord  
-    
+class User < ApplicationRecord
+    has_many :items 
 end
