@@ -59,25 +59,25 @@ items = [
         category: 'accessory',
     },
 
-     {
+    {
         name: 'Clear Switch', 
         price: 10,
         image: "https://www.keyboardco.com/product-images/cherry_key_switch_module_mx_clear_large.jpg",
         category: 'accessory', 
     },
-     {
+    {
         name: 'Black Switch', 
         price: 20,
         image: "https://pcper.com/wp-content/uploads/2014/12/65fb-cherrymx-barekeyswitch.png",
         category: 'accessory', 
     },
-     {
+    {
         name: 'Red Switch', 
         price: 15,
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR-8xEMfy6G6_uIZ25UWhOiEm68bZjhbBGZQA&usqp=CAU",
         category: 'accessory',
     },
- ]
+]
 
 items.each do |items|
     Item.create(items) 

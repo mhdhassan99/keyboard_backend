@@ -1,10 +1,10 @@
 class ItemsController < ApplicationController
-     def index 
+    def index 
         @items = Item.all 
         render json: @items
     end
 
-     def update 
+    def update 
         # byebug
         @item = Item.find(params[:id])
         
