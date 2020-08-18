@@ -6,6 +6,7 @@ class CreateItems < ActiveRecord::Migration[6.0]
       t.string :image
       t.string :category
       t.integer :user_id 
+      t.integer :quantity, :default => 1
 
       t.timestamps
     end
