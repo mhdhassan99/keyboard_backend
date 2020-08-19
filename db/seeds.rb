@@ -18,26 +18,45 @@ User.create(name: 'John Dough', username: 'breadforlife', password: 1234)
 
 
 items = [
+    # {
+    #     name: 'Ducky One 2 Mini v2 RGB LED', 
+    #     price: 100,
+    #     image: "https://mechanicalkeyboards.com/shop/images/products/large_1558_POK3R_RGB_8.jpg",
+    #     category: 'keyboard', 
+    #     quantity: 1
+    # },
+       # {
+    #     name: 'Ducky One 2 Mini Pure White', 
+    #     price: 150,
+    #     image: "https://mechanicalkeyboards.com/shop/images/products/large_DKSH1808ST-USPDAAT1_main.png",
+    #     category: 'keyboard', 
+    #     quantity: 1
+    # },
+    # {
+    #     name: 'Ducky One 2 RGB TKL RGB', 
+    #     price: 60,
+    #     image: "https://mechanicalkeyboards.com/shop/images/products/large_4322_large_DKON1861ST-USPDAZT1_main.png",
+    #     category: 'keyboard',
+    #     quantity: 1
+    # },
     {
-        name: 'Ducky One 2 Mini v2 RGB LED', 
-        price: 100,
-        image: "https://mechanicalkeyboards.com/shop/images/products/large_1558_POK3R_RGB_8.jpg",
+        name: 'Ducky x MK Frozen Llama Mecha ', 
+        price: 130,
+        image: "https://mechanicalkeyboards.com/shop/images/products/large_DKME1961ST-USPDZZT1_10.jpg",
         category: 'keyboard', 
         quantity: 1
     },
- 
     {
-        name: 'Ducky One 2 Mini Pure White', 
-        price: 150,
-        image: "https://mechanicalkeyboards.com/shop/images/products/large_DKSH1808ST-USPDAAT1_main.png",
+        name: 'Varmilo VA87M CMPYO', 
+        price: 130,
+        image: "https://mechanicalkeyboards.com/shop/images/products/large_2843_87CMYK_1.jpg",
         category: 'keyboard', 
         quantity: 1
     },
-
     {
-        name: 'Ducky One 2 RGB TKL RGB', 
+        name: 'Ducky MIYA Pro Panda White', 
         price: 60,
-        image: "https://mechanicalkeyboards.com/shop/images/products/large_4322_large_DKON1861ST-USPDAZT1_main.png",
+        image: "https://mechanicalkeyboards.com/shop/images/products/large_MY68N1WLLPaNDv_main.png",
         category: 'keyboard',
         quantity: 1
     },
